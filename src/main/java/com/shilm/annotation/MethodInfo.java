@@ -11,7 +11,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MethodInfo {
     String author() default "shilm";
-    String date();
+    String date() default "no date";
     int revision() default 1;
     String comments();
 }
