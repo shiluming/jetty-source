@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.eclipse.jetty.server.Server</OriginalElement>
+  <nodes>
+    <node x="631.9221491228068" y="2664.0">org.eclipse.jetty.server.handler.AbstractHandlerContainer</node>
+    <node x="1250.4221491228068" y="2399.0">org.eclipse.jetty.server.handler.AbstractHandler</node>
+    <node x="960.4221491228069" y="443.0">org.eclipse.jetty.util.component.AbstractLifeCycle</node>
+    <node x="0.0" y="823.0">org.eclipse.jetty.server.HandlerContainer</node>
+    <node x="2001.1030701754385" y="2917.0">org.eclipse.jetty.util.Attributes</node>
+    <node x="164.16666666666674" y="1801.0">org.eclipse.jetty.server.Handler</node>
+    <node x="946.9221491228068" y="2882.0">org.eclipse.jetty.server.handler.HandlerWrapper</node>
+    <node x="895.439692982456" y="1375.0">org.eclipse.jetty.util.component.ContainerLifeCycle</node>
+    <node x="485.4221491228068" y="857.5">org.eclipse.jetty.util.component.Destroyable</node>
+    <node x="258.0" y="133.0">org.eclipse.jetty.util.component.LifeCycle</node>
+    <node x="632.4221491228068" y="788.5">org.eclipse.jetty.util.component.Container</node>
+    <node x="1712.8563596491226" y="0.0">org.eclipse.jetty.util.annotation.ManagedObject</node>
+    <node x="1732.4221491228068" y="225.0">org.eclipse.jetty.util.component.Dumpable</node>
+    <node x="1428.689692982456" y="3147.0">org.eclipse.jetty.server.Server</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.eclipse.jetty.server.Server" target="org.eclipse.jetty.server.handler.HandlerWrapper">
+      <point x="-305.0" y="-487.0" />
+      <point x="1581.189692982456" y="3122.0" />
+      <point x="1088.9221491228068" y="3122.0" />
+      <point x="0.0" y="107.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.Dumpable" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="0.0" y="-38.0" />
+      <point x="1805.9221491228068" y="113.0" />
+      <point x="1774.3563596491226" y="113.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.AbstractLifeCycle" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="208.75" y="-441.0" />
+      <point x="1586.6721491228068" y="113.0" />
+      <point x="1760.689692982456" y="113.0" />
+      <point x="-13.666666666666629" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.ContainerLifeCycle" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="366.0" y="-487.0" />
+      <point x="1718.939692982456" y="1355.0" />
+      <point x="1889.9221491228068" y="1355.0" />
+      <point x="1889.9221491228068" y="103.0" />
+      <point x="1788.0230263157894" y="103.0" />
+      <point x="13.666666666666629" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.Handler" target="org.eclipse.jetty.util.component.LifeCycle">
+      <point x="0.0" y="-61.0" />
+      <point x="406.16666666666674" y="1355.0" />
+      <point x="403.5" y="1355.0" />
+      <point x="0.0" y="130.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandler" target="org.eclipse.jetty.server.Server">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandlerContainer" target="org.eclipse.jetty.server.HandlerContainer">
+      <point x="-76.0" y="-84.0" />
+      <point x="707.9221491228068" y="2639.0" />
+      <point x="118.5" y="2639.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.HandlerWrapper" target="org.eclipse.jetty.server.handler.AbstractHandlerContainer">
+      <point x="-71.0" y="-107.5" />
+      <point x="1017.9221491228068" y="2857.0" />
+      <point x="783.9221491228068" y="2857.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.ContainerLifeCycle" target="org.eclipse.jetty.util.component.Destroyable">
+      <point x="-366.0" y="-487.0" />
+      <point x="986.939692982456" y="1355.0" />
+      <point x="580.6721491228068" y="1355.0" />
+      <point x="31.75" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.ContainerLifeCycle" target="org.eclipse.jetty.util.component.Dumpable">
+      <point x="183.0" y="-487.0" />
+      <point x="1535.939692982456" y="1345.0" />
+      <point x="1805.9221491228068" y="1345.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.AbstractLifeCycle" target="org.eclipse.jetty.util.component.LifeCycle">
+      <point x="-208.75" y="-441.0" />
+      <point x="1169.1721491228068" y="418.0" />
+      <point x="500.5" y="418.0" />
+      <point x="97.0" y="130.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.HandlerContainer" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="-59.25" y="-61.0" />
+      <point x="59.25" y="83.0" />
+      <point x="1719.689692982456" y="83.0" />
+      <point x="-54.66666666666663" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.Handler" target="org.eclipse.jetty.util.component.Destroyable">
+      <point x="161.33333333333331" y="-61.0" />
+      <point x="567.5" y="1355.0" />
+      <point x="517.1721491228068" y="1355.0" />
+      <point x="-31.75" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.Server" target="org.eclipse.jetty.util.Attributes">
+      <point x="305.0" y="-487.0" />
+      <point x="2191.189692982456" y="3122.0" />
+      <point x="2144.1030701754385" y="3122.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.HandlerContainer" target="org.eclipse.jetty.util.component.LifeCycle">
+      <point x="59.25" y="-61.0" />
+      <point x="177.75" y="418.0" />
+      <point x="306.5" y="418.0" />
+      <point x="-97.0" y="130.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandler" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="85.0" y="-107.5" />
+      <point x="1462.9221491228068" y="2374.0" />
+      <point x="1912.3530701754385" y="2374.0" />
+      <point x="1912.3530701754385" y="93.0" />
+      <point x="1801.689692982456" y="93.0" />
+      <point x="27.333333333333258" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.ContainerLifeCycle" target="org.eclipse.jetty.util.component.Container">
+      <point x="-183.0" y="-487.0" />
+      <point x="1169.939692982456" y="1345.0" />
+      <point x="786.4221491228068" y="1345.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.Server" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="0.0" y="-487.0" />
+      <point x="1886.189692982456" y="3122.0" />
+      <point x="1990.6030701754385" y="3122.0" />
+      <point x="1990.6030701754385" y="73.0" />
+      <point x="1829.0230263157894" y="73.0" />
+      <point x="54.66666666666663" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.ContainerLifeCycle" target="org.eclipse.jetty.util.component.AbstractLifeCycle">
+      <point x="0.0" y="-487.0" />
+      <point x="1352.939692982456" y="1355.0" />
+      <point x="1377.9221491228068" y="1355.0" />
+      <point x="0.0" y="441.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandler" target="org.eclipse.jetty.server.Handler">
+      <point x="-85.0" y="-107.5" />
+      <point x="1292.9221491228068" y="2374.0" />
+      <point x="406.16666666666674" y="2374.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.util.component.LifeCycle" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="0.0" y="-130.0" />
+      <point x="403.5" y="103.0" />
+      <point x="1747.0230263157894" y="103.0" />
+      <point x="-27.33333333333337" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.HandlerWrapper" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="71.0" y="-107.5" />
+      <point x="1159.9221491228068" y="2857.0" />
+      <point x="1944.3530701754385" y="2857.0" />
+      <point x="1944.3530701754385" y="83.0" />
+      <point x="1815.3563596491226" y="83.0" />
+      <point x="41.0" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandler" target="org.eclipse.jetty.util.component.ContainerLifeCycle">
+      <point x="0.0" y="-107.5" />
+      <point x="1377.9221491228068" y="2374.0" />
+      <point x="1352.939692982456" y="2374.0" />
+      <point x="0.0" y="487.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.HandlerWrapper" target="org.eclipse.jetty.server.Handler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.Handler" target="org.eclipse.jetty.util.annotation.ManagedObject">
+      <point x="-161.33333333333326" y="-61.0" />
+      <point x="244.83333333333348" y="1355.0" />
+      <point x="247.5" y="1355.0" />
+      <point x="247.5" y="93.0" />
+      <point x="1733.3563596491226" y="93.0" />
+      <point x="-41.0" y="26.5" />
+    </edge>
+    <edge source="org.eclipse.jetty.server.handler.AbstractHandlerContainer" target="org.eclipse.jetty.server.handler.AbstractHandler">
+      <point x="76.0" y="-84.0" />
+      <point x="859.9221491228068" y="2639.0" />
+      <point x="1377.9221491228068" y="2639.0" />
+      <point x="0.0" y="107.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="1687.9090909090912" y="274.86678358018804" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
